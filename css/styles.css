@@ -86,7 +86,7 @@ a {
 }
 
 .link-arrow::after {
-  content: "-->";
+  content: '-->';
   margin-left: 5px;
   transition: margin 0.15s;
 }
@@ -214,6 +214,10 @@ a {
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.btn:hover {
+  color: var(--color-primary);
 }
 
 .btn .icon {
