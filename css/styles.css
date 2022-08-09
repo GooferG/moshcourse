@@ -706,8 +706,9 @@ a {
 .nav__brand {
   transform: translateY(5px);
   text-decoration: none;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
+  font-style: italic;
 }
 
 @media screen and (min-width: 768px) {
