@@ -432,6 +432,7 @@ a {
 .media {
   display: flex;
   margin-bottom: 4rem;
+  color: #53585e;
 }
 
 .media__title {
@@ -636,7 +637,7 @@ a {
 }
 
 .block--dark {
-  background: #000;
+  background: #a6a6a6;
   color: #7b858b;
 }
 
@@ -663,7 +664,7 @@ a {
 
 /* Navigation */
 .nav {
-  background: #000;
+  background: #a6a6a6;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -682,7 +683,7 @@ a {
 }
 
 .nav__item > a {
-  color: #d2d0db;
+  color: #53585e;
   transition: color 0.3s;
 }
 
@@ -704,6 +705,9 @@ a {
 
 .nav__brand {
   transform: translateY(5px);
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
@@ -728,7 +732,7 @@ a {
 
 .hero__tagline {
   font-size: 2rem;
-  color: #b9c3cf;
+  color: #53585e;
   letter-spacing: 1px;
   margin: 2rem 0 5rem;
 }
